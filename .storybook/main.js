@@ -2,6 +2,7 @@ const path = require('path')
 module.exports = {
   alias: {
     '@': path.resolve(__dirname, '../src'),
+    '@emotion/react': path.resolve(__dirname, '../node_modules/@emotion/react'),
   },
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
